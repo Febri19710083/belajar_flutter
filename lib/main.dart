@@ -43,6 +43,16 @@ class Home extends StatelessWidget {
         ],
         actionsIconTheme: IconThemeData(color: Colors.black),
       ),
+      body: Container(
+        color: Colors.blue,
+        margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+        padding: EdgeInsets.all(5),
+        child: Icon(
+          Icons.home,
+          color: Colors.white,
+          size: 30.40,
+        ),
+      ),
     );
   }
 }
